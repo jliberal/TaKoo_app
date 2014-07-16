@@ -1,0 +1,344 @@
+body {
+  font-family: 'Gloria Hallelujah';
+  font-size: 16px;
+}
+header {
+  background: -o-radial-gradient(top, circle cover, #427388, #2c3e50 80%);
+  background: -ms-radial-gradient(top, circle cover, #427388, #2c3e50 80%);
+  background: -moz-radial-gradient(top, circle cover, #427388, #2c3e50 80%);
+  background: -webkit-radial-gradient(top, circle cover, #427388, #2c3e50 80%);
+  background: radial-gradient(to bottom, circle cover, #427388, #2c3e50 80%);
+  -webkit-box-shadow: 0px 4px 6px #333;
+  box-shadow: 0px 4px 6px #333;
+  padding-top: 0.1em;
+  position: relative;
+  overflow: hidden;
+  font-family: helvetica;
+  font-size: 18px;
+  width: 100%;
+  z-index: 2;
+}
+header .logo {
+  margin: 0;
+  float: left;
+  width: 60px;
+}
+header .logo img {
+  width: 55px;
+}
+header .titulo {
+  margin: 8px 60px 0 70px;
+  padding: left 0.5em;
+  padding: top 1em;
+}
+header .titulo a {
+  color: #ecf0f1;
+  font-family: 'Russo One', sans-serif;
+  vertical-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+header .titulo a strong {
+  color: #f1c40f;
+}
+section h1 {
+  padding: 5px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: -2px 2px 3px #2c3e50;
+  font-size: 36px;
+}
+section h1 span {
+  color: #f1c40f;
+}
+section h3 {
+  text-shadow: -2px 2px 3px #2c3e50;
+  font-size: 24px;
+}
+section fieldset {
+  padding: 0px;
+  border: 0px;
+  margin: 2px 2px 2px 2px;
+}
+section .banner {
+  position: relative;
+  height: 700px;
+  color: #fff;
+  -webkit-box-shadow: 0px 4px 6px #2c3e50;
+  box-shadow: 0px 4px 6px #2c3e50;
+  z-index: 2;
+}
+section .banner .banner_logo {
+  background-color: #2c3e50;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  z-index: -1;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+section .banner .banner_logo:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/cooperation.jpg");
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  opacity: 0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+}
+section .banner .banner_logo:after img {
+  max-width: 100%;
+  height: auto;
+}
+section .banner .leftcontent {
+  padding-top: 10px;
+  position: absolute;
+  width: 60%;
+  height: 20%;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+}
+section .banner .rightcontent {
+  position: absolute;
+  padding-top: 10px;
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  margin-left: 60%;
+}
+section .banner .rightcontent .sign_form,
+section .banner .rightcontent .start_form {
+  margin: 5% auto 5% auto;
+  font-family: 'Roboto', sans-serif;
+  width: 350px;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  background: -o-linear-gradient(top, #45617d, #2c3e50);
+  background: -ms-linear-gradient(top, #45617d, #2c3e50);
+  background: -moz-linear-gradient(top, #45617d, #2c3e50);
+  background: -webkit-linear-gradient(top, #45617d, #2c3e50);
+  background: linear-gradient(to bottom, #45617d, #2c3e50);
+  -webkit-box-shadow: 0px 4px 6px #2c3e50;
+  box-shadow: 0px 4px 6px #2c3e50;
+  text-align: center;
+}
+section .banner .rightcontent .sign_form input,
+section .banner .rightcontent .start_form input {
+  background-color: #2c3e50;
+  -webkit-box-shadow: 0 -1px 0 0px #2c3e50;
+  box-shadow: 0 -1px 0 0px #2c3e50;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 0;
+  width: 300px;
+  color: #ecf0f1;
+  padding: 1px 1px 1px 10px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-size: 13px;
+}
+section .banner .rightcontent .sign_form button,
+section .banner .rightcontent .start_form button {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f1c40f;
+  width: 100px;
+  font-weight: 500;
+  line-height: 20px;
+  background: -o-linear-gradient(top, #2c3e50, #45617d);
+  background: -ms-linear-gradient(top, #2c3e50, #45617d);
+  background: -moz-linear-gradient(top, #2c3e50, #45617d);
+  background: -webkit-linear-gradient(top, #2c3e50, #45617d);
+  background: linear-gradient(to bottom, #2c3e50, #45617d);
+  -webkit-box-shadow: 0 -1px 0 0px #ecf0f1;
+  box-shadow: 0 -1px 0 0px #ecf0f1;
+  padding: 5px 5px 5px 5px;
+  outline: 0;
+  border: 1px;
+  border-style: solid;
+  border-color: #f1c40f;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 4px 6px #2c3e50;
+  box-shadow: 0px 4px 6px #2c3e50;
+}
+section .banner .rightcontent .sign_form button:hover,
+section .banner .rightcontent .start_form button:hover,
+section .banner .rightcontent .sign_form button:focus,
+section .banner .rightcontent .start_form button:focus {
+  color: #2c3e50;
+  -o-transition: 1s;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background: -o-linear-gradient(top, #f1c40f, #b08f0c);
+  background: -ms-linear-gradient(top, #f1c40f, #b08f0c);
+  background: -moz-linear-gradient(top, #f1c40f, #b08f0c);
+  background: -webkit-linear-gradient(top, #f1c40f, #b08f0c);
+  background: linear-gradient(to bottom, #f1c40f, #b08f0c);
+}
+section .banner .rightcontent .sign_form form,
+section .banner .rightcontent .start_form form {
+  display: block;
+  margin-top: 0em;
+}
+section .banner .rightcontent .sign_form .form_p,
+section .banner .rightcontent .start_form .form_p {
+  margin: 5px 5px 5px 5px;
+}
+section .banner .rightcontent .sign_form .form_b,
+section .banner .rightcontent .start_form .form_b {
+  margin: 5px 5px 5px 5px;
+}
+section .banner .rightcontent .sign_form .form_d,
+section .banner .rightcontent .start_form .form_d {
+  text-align: center;
+  font-size: 10px;
+  color: #f1c40f;
+  padding: 0.5em;
+}
+section .banner .rightcontent .sign_form .form_d a,
+section .banner .rightcontent .start_form .form_d a {
+  text-decoration: none;
+  font-size: 10px;
+  padding-left: 1em;
+}
+section .banner .rightcontent .sign_form .form_d a:visited,
+section .banner .rightcontent .start_form .form_d a:visited {
+  color: #f1c40f;
+}
+section .banner .rightcontent .sign_form .form_d input,
+section .banner .rightcontent .start_form .form_d input {
+  width: 1em;
+}
+section .banner .rightcontent .sign_form {
+  height: 150px;
+}
+section .banner .rightcontent .sign_form button {
+  width: 200px;
+}
+section .banner .rightcontent .start_form {
+  height: 200px;
+}
+section .banner .rightcontent .start_form p.form_tit {
+  margin: 0 0 10px 0;
+  padding-bottom: 10px;
+  color: #f1c40f;
+  border-bottom: 1px solid #f1c40f;
+}
+section .postpad {
+  width: 60%;
+  height: 100%;
+  padding: 1em;
+  overflow: hidden;
+  position: absolute;
+  z-index: 3;
+}
+section .postpad .post_it_left {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 15px;
+  font-family: 'Gloria Hallelujah';
+  font-style: cursive;
+  font-size: 15px;
+  float: left;
+  width: 300px;
+  background: #fefabc;
+  color: #000;
+  -o-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
+  -webkit-box-shadow: 0px 4px 6px #333;
+  box-shadow: 0px 4px 6px #333;
+  z-index: 5;
+}
+section .postpad .post_it_center {
+  clear: right;
+  margin-top: 300px;
+  margin-left: 400px;
+  margin-right: 50px;
+  padding: 15px;
+  font-family: 'Gloria Hallelujah';
+  font-style: cursive;
+  font-size: 15px;
+  float: left;
+  width: 300px;
+  background: #2c3e50;
+  color: #ecf0f1;
+  -o-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+  -webkit-box-shadow: 0px 4px 6px #333;
+  box-shadow: 0px 4px 6px #333;
+}
+footer {
+  background: #92c7d6;
+  background: -o-radial-gradient(top, circle cover, #427388, #2c3e50 80%);
+  background: -ms-radial-gradient(top, circle cover, #427388, #2c3e50 80%);
+  background: -moz-radial-gradient(top, circle cover, #427388, #2c3e50 80%);
+  background: -webkit-radial-gradient(top, circle cover, #427388, #2c3e50 80%);
+  background: radial-gradient(to bottom, circle cover, #427388, #2c3e50 80%);
+  color: #ecf0f1;
+  padding: 1em 0;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+footer h3 {
+  font-size: 14px;
+  font-weight: normal;
+}
+footer h3 strong {
+  display: block;
+}
+footer h3 .starweb:before,
+footer h3 .starweb:after {
+  content: " - ";
+}
+@media screen and (max-width: 1200px) {
+  section .banner .leftcontent {
+    width: 100%;
+    height: 20%;
+    position: relative;
+  }
+  section .banner .rightcontent {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    height: auto;
+  }
+  section .banner .rightcontent .start_form {
+    margin: auto auto 5% auto;
+  }
+  section .banner .postpad {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  section .banner .leftcontent {
+    height: 30%;
+  }
+}

@@ -7,16 +7,105 @@
             content="TaKoo es un espacio de colaboración para manejo de proyectos que es todo menos aburrido." />
     <meta name="viewport" 
             content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link rel="stylesheet" href="css/normalize.css" />        
-    <link rel="stylesheet" href="css/estilos.css">        
-	<title>TaKoo: Gamificando el manejo de proyectos </title>
+    <link rel="stylesheet" href="Estilos/normalize.css" />        
+    <link rel="stylesheet" href="Estilos/estilos.css">        
+	<title>TaKoo: Ludificando el manejo de proyectos </title>
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
+		<div class="logo">
+			<img src="images/Logo.png" alt="Takoo" />
+		</div>
+		<div class="titulo">
+			<a href="#">TA<strong>KOO</strong></a>
+		</div>
 	</header>
-	<section>
+	<section class="posts">
+		<div class="banner">
+			<div class="banner_logo">
+			</div>
+			<div class="leftcontent">
+				<h1>Bienvenido a <span>TAKOO</span></h1>
+				<h3>Somos una divertida red de colaboración y seguimiento de proyectos</h3>
+			</div>
+			<div class="rightcontent">
+				<div class="sign_form">
+					<form method="post" action="#">
+						<fieldset>
+							<p class="form_p">
+								<input type="text" name="log_email" id="log_email" placeholder="Correo electrónico">
+							</p>
+							<p class="form_p">
+								<input type="password" name="log_passwd" id="log_passwd" required placeholder="Contraseña">
+							</p>
+							<p class="form_d">
+								<input type="checkbox" value="1" name="remember_me">
+								<span>Recordar mis datos</span>
+        						<a href="#">¿Olvidó su contraseña?</a>
+        					</p>	
+							<p class="form_b">
+								<button type="submit">Iniciar sesión</button>
+							</p>
+						</fieldset>	
+					</form>	
+				</div>
+				<div class="start_form">
+					<p class="form_tit">¿No tienes cuenta aún? Regístrate</p>
+					<form method="post" action="#">
+						<fieldset>
+							<p class="form_p">
+								<input type="text" name="username" id="username" placeholder="Usuario" required autofocus>
+							</p>
+							<p class="form_p">
+								<input type="text" name="email" id="email" placeholder="Correo electrónico">	
+							</p>
+							<p class="form_p">
+								<input type="password" name="passwd" id="passwd" required placeholder="Contraseña">
+							</p>
+							<p class="form_p">
+								<input type="password" name="passrep" id="passrep" required placeholder="Repetir contraseña">
+							</p>		
+						</fieldset>
+						<fieldset>
+							<p class="form_b">
+								<button type="submit">Unirse</button>
+							</p>	
+						</fieldset>
+					</form>
+				</div>
+			</div>								
+			
+		<div class="postpad">
+			<div class="post_it_left">
+				Pendiente:
+				<ul>
+					<li>Solicitar viáticos semanales</li>
+					<li>Solicitar logística</li>
+					<li>Agendar reunion con usuario clave</li>
+					<li>"Ludificar" las tareas para poder generar mayor interés en los responsables</li>
+				</ul>
+			</div>
+			<div class="post_it_center">
+				Recordar:
+				<ul>
+					<li>Generar reportes de costos</li>
+					<li>Generar informe de casos pendientes</li>
+					<li>Conversar con el equipo sobre ratio de casos atendidos : cerrados</li>
+				</ul> 
+			</div>	
+		</div>
+		</div>
 	</section>
 	<footer>
+		<h3>
+			<strong>Powered by Johnplex</strong>
+			<span class="starweb">
+				StarPlexWeb 2014
+			</span>
+		</h3>		
 	</footer>
 </body>
